@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
     <!-- Font Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +22,11 @@
     <div class="container">
       <!-- Begin header -->
       <header class="header">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <nav class="nav">
           <ul class="nav-list">
             <li><a href="#">Về BSR</a></li>
@@ -39,6 +45,17 @@
             ><img src="./assets/img/youtube.svg" alt="YouTube"
           /></a>
         </div>
+
+        <!-- Hidden Dropdown Menu -->
+        <nav class="dropdown-menu">
+          <ul>
+            <li><a href="#">VỀ BSR</a></li>
+            <li><a href="#">TIN TỨC - SỰ KIỆN</a></li>
+            <li><a href="#">SẢN PHẨM - DỊCH VỤ</a></li>
+            <li><a href="#">NHÀ ĐẦU TƯ</a></li>
+            <li><a href="#">ĐỐI TÁC</a></li>
+          </ul>
+        </nav>
       </header>
       <!-- End header -->
 
@@ -51,13 +68,14 @@
               <img src="./assets/img/logo-petro.png" alt="PetroVietnam BSR" />
             </div>
             <div class="hero-left-content">
-              <div class="text-hero-left-content">
+              <div class="text-hero-left-content active">
                 <h1>Khát vọng tiên phong</h1>
                 <p>
                   BSR tự hào là một trong những đơn vị hàng đầu trong ngành lọc
                   hóa dầu tại Việt Nam
                 </p>
               </div>
+
               <div class="btn-hero-left-content">
                 <img src="./assets/img/next-icon.svg" alt="" />
                 <img src="./assets/img/pre-icon.svg" alt="" />
@@ -65,12 +83,44 @@
             </div>
           </div>
           <div class="hero-right">
-            <div class="next-icon-list">
-              <div class="next-icon-item"></div>
-              <div class="next-icon-item"></div>
-              <div class="next-icon-item"></div>
-              <div class="next-icon-item"></div>
-              <div class="next-icon-item"></div>
+            <div class="slides">
+              <!--radio buttons start-->
+              <input type="radio" name="radio-btn" id="radio1" />
+              <input type="radio" name="radio-btn" id="radio2" />
+              <input type="radio" name="radio-btn" id="radio3" />
+              <input type="radio" name="radio-btn" id="radio4" />
+              <!--radio buttons end-->
+
+              <!--slide images start-->
+              <div class="slide first">
+                <img src="./assets/img/slider-ship-raw.png" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/img/petrovietnam.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/img/petrovietnam2.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./assets/img/petrovietnam3.jpg" alt="" />
+              </div>
+              <!--slide images end-->
+
+              <!--automatic navigation start-->
+              <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+              </div>
+              <!-- end automatic nav start -->
+            </div>
+
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
             </div>
           </div>
         </section>
@@ -151,6 +201,17 @@
                 <img src="./assets/img/pre-icon.svg" alt="" />
               </div>
             </div>
+            <!-- btn hide -->
+            <div class="btn-hide-mobile">
+              <div class="btn-hide-item left-btn-hide">
+                <img src="./assets/img/next-icon.svg" alt="" />
+              </div>
+
+              <div class="btn-hide-item right-btn-hide">
+                <img src="./assets/img/pre-icon.svg" alt="" />
+              </div>
+            </div>
+            <!-- end btn hide -->
             <div class="video-featured-title">
               <p>Video nổi bật</p>
             </div>
@@ -256,7 +317,9 @@
                     </p>
                   </div>
                   <div class="VHDN-button-item">
-                    <p class="VHDN-button-item-text">hoạt động văn hóa</p>
+                    <p class="VHDN-button-item-text VHDN-buton-right">
+                      hoạt động văn hóa
+                    </p>
                   </div>
                 </div>
               </div>
@@ -315,19 +378,23 @@
                 <img src="./assets/img/next-icon.svg" alt="" />
               </div>
               <div class="SPDV-slider-item background-xang">
-                <img src="./assets/img/xang.svg" alt="" />
+                <img class="SPDV-img" src="./assets/img/xang.svg" alt="" />
                 <p class="text-slider-SPDV">Xăng</p>
               </div>
               <div class="SPDV-slider-item background-KHL">
-                <img src="./assets/img/khi-hoa-long.svg" alt="" />
+                <img
+                  class="SPDV-img"
+                  src="./assets/img/khi-hoa-long.svg"
+                  alt=""
+                />
                 <p class="text-slider-SPDV">Khí hóa lỏng</p>
               </div>
               <div class="SPDV-slider-item background-dau">
-                <img src="./assets/img/dau.svg" alt="" />
+                <img class="SPDV-img" src="./assets/img/dau.svg" alt="" />
                 <p class="text-slider-SPDV">Dầu</p>
               </div>
               <div class="SPDV-slider-item background-hatnhua">
-                <img src="./assets/img/hat-nhua.svg" alt="" />
+                <img class="SPDV-img" src="./assets/img/hat-nhua.svg" alt="" />
                 <p class="text-slider-SPDV">Hạt nhựa</p>
               </div>
               <div class="SPDV-slider-item prev-icon-slider">
