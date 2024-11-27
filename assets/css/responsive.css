@@ -1,0 +1,1655 @@
+/* Mobile L */
+@media screen and (min-width: 319px) and (max-width: 425.8px) {
+  .text-hero-left-content h1 {
+    font-size: 16px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 14px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header {
+    justify-content: space-between;
+    border-width: 1px 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    padding: 30px 0 30px 30px;
+  }
+
+  .hero-left-logo img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-left-logo {
+    left: -42px;
+    bottom: -14px;
+  }
+
+  .social-icons {
+    margin-right: 16px;
+  }
+
+  .hero-right {
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 30px;
+  }
+
+  .next-icon-item {
+    width: 12px;
+    height: 5px;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    top: -27px;
+    left: 24px;
+    border-radius: 70px 0px 70px 70px;
+  }
+
+  .btn-hero-left-content {
+    gap: 8px;
+    left: 75px;
+    top: -5px;
+  }
+
+  .project-specs-block {
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .btn-hide-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .btn-pre {
+    display: none;
+  }
+  .btn-next {
+    display: none;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .video-featured-icon {
+    gap: 4px;
+  }
+
+  .video-featured-section {
+    background-repeat: repeat-y;
+    height: 2360px;
+  }
+
+  .video-featured-news {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+  }
+
+  .factory-block-view-date {
+    font-size: 12px;
+  }
+
+  .text-change p {
+    font-size: 16px;
+  }
+
+  .video-featured-section-container {
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .next-slider-news {
+    position: relative;
+    top: 740px;
+    gap: 20px;
+  }
+
+  .next-slider-news-item {
+    width: 16px;
+    height: 16px;
+  }
+
+  .VHDN {
+    position: relative;
+    top: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .VHDN-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .VHDN-title {
+    font-size: 26px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 16px;
+  }
+
+  .VHDN-para {
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .VHDN-button {
+    gap: 20px;
+  }
+
+  .video-featured-button {
+    position: relative;
+    top: 742px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GTCL {
+    height: 600px;
+  }
+
+  .GTCL-title {
+    font-size: 32px;
+  }
+
+  .GTCL-center-logo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon-middle-item {
+    margin: 0 0 0 0;
+    top: 10px;
+  }
+
+  .icon-middle-side {
+    bottom: 62px;
+  }
+
+  .icon-side-left {
+    left: 162px;
+    top: 86px;
+  }
+
+  .icon-side-right {
+    right: 162px;
+    top: 86px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1700px;
+  }
+
+  .SPDV-overview {
+    margin: 0 25px 0 15px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .SPDV-title {
+    font-size: 32px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .DTKH-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .DTKH-title {
+    font-size: 32px;
+  }
+
+  .logo-mini {
+    background: #c7eafb;
+    height: 200px;
+    width: 100%;
+    margin-top: 68px;
+  }
+  .title-logo-petro-mini p {
+    font-size: 16px;
+  }
+
+  .information-petro {
+    height: 150px;
+    flex-direction: column;
+    padding: 6px 8px 6px 8px;
+  }
+
+  .text-info {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .info-petro-item-block {
+    gap: 4px;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+/* End mobile L */
+
+/* 425-580 */
+@media screen and (min-width: 425.8px) and (max-width: 580px) {
+  .text-hero-left-content h1 {
+    font-size: 16px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 14px;
+  }
+
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header {
+    justify-content: space-between;
+    border-width: 1px 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    padding: 30px 0 30px 30px;
+  }
+
+  .hero-left-logo img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-left-logo {
+    left: -42px;
+    bottom: -14px;
+  }
+
+  .social-icons {
+    margin-right: 16px;
+  }
+
+  .hero-right {
+    border-radius: 50px 50px 50px 50px;
+    margin-right: 30px;
+  }
+
+  .next-icon-item {
+    width: 12px;
+    height: 5px;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    top: -27px;
+    left: 24px;
+    border-radius: 70px 0px 70px 70px;
+  }
+
+  .btn-hero-left-content {
+    gap: 8px;
+    left: 75px;
+    top: -5px;
+  }
+
+  .project-specs-block {
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+
+  .btn-hide-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .btn-pre {
+    display: none;
+  }
+  .btn-next {
+    display: none;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .video-featured-icon {
+    gap: 4px;
+  }
+
+  .video-featured-section {
+    background-repeat: repeat-y;
+    height: 2360px;
+  }
+
+  .video-featured-news {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+  }
+
+  .factory-block-view-date {
+    font-size: 12px;
+  }
+
+  .text-change p {
+    font-size: 16px;
+  }
+
+  .video-featured-section-container {
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .next-slider-news {
+    position: relative;
+    top: 740px;
+    gap: 20px;
+  }
+
+  .next-slider-news-item {
+    width: 16px;
+    height: 16px;
+  }
+
+  .VHDN {
+    position: relative;
+    top: 780px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .VHDN-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .VHDN-title {
+    font-size: 26px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 16px;
+  }
+
+  .VHDN-para {
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .VHDN-button {
+    gap: 20px;
+  }
+
+  .video-featured-button {
+    position: relative;
+    top: 742px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .GTCL {
+    height: 600px;
+  }
+
+  .GTCL-title {
+    font-size: 32px;
+  }
+
+  .GTCL-center-logo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon-middle-item {
+    margin: 0 0 0 0;
+    top: 10px;
+  }
+
+  .icon-middle-side {
+    bottom: 62px;
+  }
+
+  .icon-side-left {
+    left: 162px;
+    top: 86px;
+  }
+
+  .icon-side-right {
+    right: 162px;
+    top: 86px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1700px;
+  }
+
+  .SPDV-overview {
+    margin: 0 25px 0 15px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .SPDV-title {
+    font-size: 32px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .DTKH-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .DTKH-title {
+    font-size: 32px;
+  }
+
+  .logo-mini {
+    background: #c7eafb;
+    height: 200px;
+    width: 100%;
+    margin-top: 68px;
+  }
+  .title-logo-petro-mini p {
+    font-size: 16px;
+  }
+
+  .information-petro {
+    height: 150px;
+    flex-direction: column;
+    padding: 6px 8px 6px 8px;
+  }
+
+  .text-info {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .info-petro-item-block {
+    gap: 4px;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 590px) {
+  .text-hero-left-content h1 {
+    font-size: 16px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 14px;
+  }
+
+  .header {
+    justify-content: space-between;
+    border-width: 1px 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    padding: 30px 0 30px 30px;
+  }
+
+  .hero-left-logo img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-left-logo {
+    bottom: -30px;
+  }
+
+  .social-icons {
+    margin-right: 20px;
+  }
+
+  .hero-right {
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 30px;
+  }
+
+  .hero-left-logo {
+    left: -16px;
+    bottom: -10px;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    top: -27px;
+    left: 40px;
+    border-radius: 70px 0px 70px 70px;
+  }
+
+  .btn-hero-left-content {
+    gap: 8px;
+    left: 75px;
+    top: -10px;
+  }
+
+  .project-specs-block {
+    gap: 20px;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .video-featured-icon {
+    gap: 10px;
+  }
+
+  .video-featured-section {
+    height: 1300px;
+  }
+
+  .video-featured-news {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .factory-block-view-date {
+    font-size: 12px;
+  }
+
+  .text-change p {
+    font-size: 16px;
+  }
+
+  .video-featured-section-container {
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .VHDN-title {
+    font-size: 30px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 16px;
+  }
+
+  .VHDN-para {
+    font-size: 16px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .VHDN-button {
+    gap: 20px;
+  }
+
+  .GTCL-title {
+    font-size: 36px;
+  }
+
+  .GTCL-center-logo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon-middle-item {
+    margin: 0 60px 0 60px;
+  }
+
+  .icon-side-left {
+    left: 120px;
+  }
+
+  .icon-side-right {
+    right: 120px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1000px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .SPDV-overview {
+    margin: 0 100px 0 100px;
+    font-size: 16px;
+  }
+
+  .DTKH-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .DTKH-title {
+    font-size: 32px;
+  }
+
+  .information-petro {
+    gap: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .text-info {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .info-petro-item-block {
+    gap: 4px;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+
+/*Small tablet*/
+@media screen and (min-width: 591px) and (max-width: 619px) {
+  .header {
+    justify-content: space-between;
+    border-width: 1px 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    padding: 30px 0 30px 30px;
+  }
+
+  .hero-left-logo img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-left-logo {
+    bottom: -30px;
+  }
+
+  .social-icons {
+    margin-right: 20px;
+  }
+
+  .hero-right {
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 30px;
+  }
+
+  .hero-left-logo {
+    left: -16px;
+    bottom: -10px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 14px;
+    font-weight: 350;
+  }
+
+  .text-hero-left-content h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    top: -27px;
+    left: 40px;
+    border-radius: 70px 0px 70px 70px;
+  }
+
+  .btn-hero-left-content {
+    gap: 8px;
+    left: 75px;
+    top: -10px;
+  }
+
+  .project-specs-block {
+    gap: 20px;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .video-featured-icon {
+    gap: 20px;
+  }
+
+  .video-featured-section {
+    height: 1300px;
+  }
+
+  .video-featured-news {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .factory-block-view-date {
+    font-size: 12px;
+  }
+
+  .text-change p {
+    font-size: 16px;
+  }
+
+  .video-featured-section-container {
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .VHDN-title {
+    font-size: 30px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 16px;
+  }
+
+  .VHDN-para {
+    font-size: 16px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .VHDN-button {
+    gap: 20px;
+  }
+
+  .GTCL-title {
+    font-size: 36px;
+  }
+
+  .GTCL-center-logo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon-middle-item {
+    margin: 0 60px 0 60px;
+  }
+
+  .icon-side-left {
+    left: 120px;
+  }
+
+  .icon-side-right {
+    right: 120px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1000px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .SPDV-overview {
+    margin: 0 100px 0 100px;
+    font-size: 16px;
+  }
+
+  .DTKH-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .DTKH-title {
+    font-size: 32px;
+  }
+
+  .information-petro {
+    gap: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .text-info {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .info-petro-item-block {
+    gap: 4px;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+/* End Small tablet */
+
+/* Tablet */
+@media screen and (min-width: 620px) and (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+    border-width: 1px 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  /* Show hamburger menu */
+  .hamburger {
+    display: flex;
+    padding: 30px 0 30px 30px;
+  }
+
+  .hero-left-logo img {
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-left-logo {
+    bottom: -30px;
+  }
+
+  .social-icons {
+    margin-right: 20px;
+  }
+
+  .hero-right {
+    border-radius: 100px 100px 100px 100px;
+    margin-right: 30px;
+  }
+
+  .hero-left-logo {
+    left: -16px;
+    bottom: -10px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 16px;
+    font-weight: 350;
+  }
+
+  .text-hero-left-content h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    top: -27px;
+    left: 40px;
+    border-radius: 70px 0px 70px 70px;
+  }
+
+  .btn-hero-left-content {
+    gap: 8px;
+    left: 75px;
+    top: -10px;
+  }
+
+  .project-specs-block {
+    gap: 20px;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .video-featured-icon {
+    gap: 20px;
+  }
+
+  .video-featured-section {
+    height: 1300px;
+  }
+
+  .video-featured-news {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .factory-block-view-date {
+    font-size: 12px;
+  }
+
+  .text-change p {
+    font-size: 16px;
+  }
+
+  .video-featured-section-container {
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .VHDN-title {
+    font-size: 30px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 16px;
+  }
+
+  .VHDN-para {
+    font-size: 16px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .VHDN-button {
+    gap: 20px;
+  }
+
+  .GTCL-title {
+    font-size: 36px;
+  }
+
+  .GTCL-center-logo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .icon-middle-item {
+    margin: 0 60px 0 60px;
+  }
+
+  .icon-side-left {
+    left: 120px;
+  }
+
+  .icon-side-right {
+    right: 120px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1000px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .SPDV-overview {
+    margin: 0 100px 0 100px;
+    font-size: 16px;
+  }
+
+  .DTKH-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .DTKH-title {
+    font-size: 32px;
+  }
+
+  .information-petro {
+    gap: 20px;
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+
+  .text-info {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .info-petro-item-block {
+    gap: 4px;
+  }
+
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+/* End tablet */
+
+@media screen and (min-width: 769px) and (max-width: 884px) {
+  .navigation-auto {
+    display: none;
+  }
+
+  .navigation-manual {
+    display: none;
+  }
+}
+
+/* Large tablet & laptop styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .hero-left-logo {
+    position: relative;
+    width: 80%;
+    height: 301px;
+    margin-left: 40px;
+    bottom: 30px;
+    padding-right: 30px;
+  }
+
+  .hero-left-logo img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .nav-list li a {
+    font-size: 12px;
+  }
+
+  .social-icons {
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-right: 8px;
+  }
+
+  .hero-right {
+    width: 190%;
+    height: 482px;
+    margin-right: 20px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 16px;
+    font-weight: 350;
+  }
+
+  .text-hero-left-content h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .text-hero-left-content {
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+    gap: 10px;
+    margin: 0 28px;
+  }
+
+  .hero-left-content {
+    position: relative;
+    top: -27px;
+    left: 40px;
+    width: 110%;
+    height: 180px;
+    border-radius: 100px 0px 100px 100px;
+    background: #22689b;
+  }
+
+  .next-icon-item {
+    width: 20px;
+    height: 5px;
+  }
+
+  .btn-hero-left-content {
+    width: 32px;
+    height: 32px;
+    gap: 8px;
+    left: 75px;
+    top: -24px;
+  }
+
+  .project-specs-block {
+    gap: 20px;
+  }
+
+  .project-specs-item {
+    width: 240px;
+    gap: 8px;
+  }
+
+  .project-specs-item-icon {
+    width: 120px;
+    height: 150px;
+    padding: 25px 15px;
+  }
+
+  .project-specs-item-text {
+    font-size: 18px;
+    line-height: 30px; /* 168% */
+  }
+
+  .project-specs-item-big-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .VHDN-button {
+    gap: 24px;
+  }
+
+  .VHDN-title {
+    font-size: 36px;
+  }
+
+  .VHDN-button-item-text {
+    font-size: 20px;
+  }
+
+  .VHDN-buton-right {
+    padding: 35px 0 27px 0;
+  }
+
+  .icon-middle-item {
+    margin: 0 80px 0 80px;
+  }
+
+  .GTCL-center-logo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .SPDV-container {
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .next-icon-slider {
+    display: none;
+  }
+
+  .prev-icon-slider {
+    display: none;
+  }
+
+  .SPDV {
+    height: 1000px;
+  }
+
+  .background-xang {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-KHL {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-dau {
+    width: 260px;
+    height: 320px;
+  }
+
+  .background-hatnhua {
+    width: 260px;
+    height: 320px;
+  }
+
+  .SPDV-slider-item {
+    flex: 1 1 calc(50% - 10px);
+  }
+
+  .video-featured-section-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 40px;
+    margin: 57px 50px 125px 50px;
+  }
+
+  .DTKH-logo img {
+    width: 220px;
+  }
+
+  .text-info {
+    font-size: 12px;
+  }
+
+  .SPDV-overview {
+    margin: 0 100px 0 100px;
+  }
+}
+/* End Large tablet & laptop */
+
+/* Small desktop and Large laptop */
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .btn-hero-left-content {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 75px;
+    top: -8px;
+  }
+
+  .hero-left-logo img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .nav-list li a {
+    font-size: 14px;
+  }
+
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icons {
+    margin-left: 80px;
+    margin-right: 70px;
+    padding-right: 8px;
+  }
+
+  .text-hero-left-content {
+    gap: 12px;
+  }
+
+  .text-hero-left-content p {
+    font-size: 20px;
+    font-weight: 350;
+  }
+
+  .text-hero-left-content h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .background-xang {
+    width: 250px;
+    height: 350px;
+  }
+
+  .background-KHL {
+    width: 250px;
+    height: 350px;
+  }
+
+  .background-dau {
+    width: 250px;
+    height: 350px;
+  }
+
+  .background-hatnhua {
+    width: 250px;
+    height: 350px;
+  }
+
+  .SPDV-slider-item p {
+    font-size: 28px;
+  }
+
+  .DTKH-logo {
+    gap: 14px;
+  }
+
+  /* End small desktop and Large laptop */
+  @media screen and (min-width: 1256px) and (max-width: 1300px) {
+    .btn-hero-left-content {
+      left: 75px;
+      top: 20px;
+    }
+  }
+}
